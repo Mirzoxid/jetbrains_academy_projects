@@ -1,0 +1,47 @@
+body{
+    background-color: teal;
+}
+.container{
+    margin: 10% auto;
+    padding: 0;
+    width: 30%;
+}
+kbd{
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+    margin-left: -5px;
+}
+.black-keys{
+    position: absolute;
+    z-index: 10;
+}
+.white-keys kbd{
+    width: 60px;
+    height: 200px;
+    background-color: white;
+    border: 3px solid #5f5e5e;
+}
+.black-keys kbd{
+    color: white;
+    width: 40px;
+    height: 140px;
+    background-color: black;
+    position: relative;
+}
+.black-keys-pos1{
+    left: 45px;
+}
+.black-keys-pos2{
+    left: 70px;
+}
+.black-keys-pos3{
+    left: 163px;
+}
+.black-keys-pos4{
+    left: 190px;
+}
+.black-keys-pos5{
+    left: 215px;
+}
+
